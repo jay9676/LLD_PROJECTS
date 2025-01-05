@@ -7,7 +7,7 @@ public class Move {
     private Piece pieceMoved;
     private Piece pieceKilled;
     private boolean castlingMove = false;
-
+//
     public Move(Player player, Box start, Box end)
     {
         this.player = player;
